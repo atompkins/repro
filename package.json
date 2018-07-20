@@ -1,0 +1,26 @@
+{
+  "name": "repro",
+  "version": "0.0.0",
+  "description": "repro for rollup #1407",
+  "main": "index.js",
+  "scripts": {
+    "rollup": "rollup index.js --file bundle.js --format iife",
+    "test": "npm run rollup && node bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atompkins/repro.git"
+  },
+  "keywords": [
+    "repro"
+  ],
+  "author": "atompkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atompkins/repro/issues"
+  },
+  "homepage": "https://github.com/atompkins/repro#readme",
+  "devDependencies": {
+    "rollup": "^0.63.2"
+  }
+}
